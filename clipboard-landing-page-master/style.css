@@ -37,7 +37,8 @@ header {
     padding-top: 5em;
     padding-bottom: 2em;
     text-align: center;
-    background: white url('./images/bg-header-mobile.png') repeat-x;
+    background: white url('./images/bg-header-mobile.png');
+    background-size: cover;
 }
 
 
@@ -141,6 +142,11 @@ footer {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media only screen and (min-width: 778px) {
+
+    .logo {
+        background: white url('./images/bg-header-desktop.png');
+        background-size: cover;
+}
 
     .buttons {
         text-align: center;
